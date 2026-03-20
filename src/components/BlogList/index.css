@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.BlogList-container {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}

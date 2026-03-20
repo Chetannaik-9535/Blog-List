@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.BlogItem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 17px;
+}
+
+.name-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.post-name {
+  font-family: monospace;
+  font-size: 30px;
+  color: #12022f;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+}
+
+.publishedDate {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #616e7c;
+  font-weight: bold;
+  font-style: none;
+  margin: 10px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #616e7c;
+  font-weight: bold;
+  font-style: none;
+  margin: 10px;
+}

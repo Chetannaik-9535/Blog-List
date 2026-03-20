@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+
+.profile {
+  height: 180px;
+  width: 180px;
+  border-radius: 70px;
+  margin: 20px;
+}
+
+.Name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #12022f;
+  font-weight: bold;
+  font-style: italic;
+  margin: 15px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #616e7c;
+  font-weight: bold;
+  font-style: none;
+  margin: 15px;
+}
+
+.UserInfo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 10%;
+}
